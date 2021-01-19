@@ -1,14 +1,14 @@
 {
   "name": "api",
   "version": "1.0.0",
-  "description": "first screening task",
+  "description": "node server with sqlite",
   "main": "server.js",
   "scripts": {
     "start": "node server.bundle.js",
     "build": "webpack",
     "dev": "nodemon ./server.js localhost 3080"
   },
-  "author": "Talentedev",
+  "author": "storyofsoft",
   "dependencies": {
     "bluebird": "^3.7.2",
     "express": "^4.17.1",
